@@ -8,10 +8,48 @@ https://discord.gg/m4FGuZZb
 https://photokit.com/colors/eyedropper/?lang=ko
 ㄴ인스타 컬러  #515FFD
 
+
 ㄴ8-20-수요일 수업순서
+ 글꼴크기 표준 1em = 16px = 12pt 동일 
+
+사과주문광고 만들기
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 04apple.html</title>
+     <style>
+
+     </style>
+</head>
+<body>
+  <!-- 
+  첫번째 div, 확인사항h1, a태그 주문및배송
+  p태그본문내용 오후2시 이전~~~ 발송합니다(주말제외)   
+  hr태그 가로선 
+  table태그는 비권장 
+  -->
+  <div class="wrap">
+    <img src="https://cdn.imweb.me/thumbnail/20201126/74167caae1c94.png">
+    <div class="container">
+        
+    </div>
+  </div>
+</body>
+</html>
+
+
+
+
  <form action method> 서브밋버튼  </form>
- css, 폼화면 & 자바스크립트 
- 네이버화면 ...
+ form태그 + 순서없는 <ul> <li> </li> </ul> + 스타일 
+
+ <태그  class="bestA"> class속성 내용 </태그> 접근 .
+ <태그  id="bestA">  id 속성 내용 </태그>  접근 #
+
+
+https://cdn.imweb.me/thumbnail/20201126/74167caae1c94.png
 
 
 인라인,블럭라인 태그분류
