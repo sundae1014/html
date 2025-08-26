@@ -5,10 +5,15 @@ position위치, text-shadow음영및번짐, z-index순위
    다른요소에 영향을 주지않고 본인고유의 영역을 그대로 유지 
  ㄴabsolute은 다른요소로부터 분리하여 배치
 
- 
+
+웹web 어플
+앱app 어플 
+
 
 26일 화요일
-자바스크립트에서 id접근응용
+자바스크립트작업
+https://startbootstrap.com/
+
 
 27일 수요일 오전
  필기시험 + 실습시험
@@ -22,11 +27,13 @@ position위치, text-shadow음영및번짐, z-index순위
 요소의 바깥쪽 여백(외부여백)설정하는 속성은
 margin 
 
+ col title for a10;    --문자 10자릿수
+ col salary for 9999;  --숫자 4자릿수
+
 form태그 대상에서 lable, 컨트롤연결
 <label for='ch2'> <input id='ch2'>
 
-z-index가 동작하려면 기본적으로
-필요한 조건은?
+z-index가 동작하려면 기본적으로 필요한 조건은?
 요소가 포지션position(relative, absolute)
 
 position의 기본 속성은 static

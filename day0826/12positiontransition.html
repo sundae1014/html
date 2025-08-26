@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 12positiontransition.html </title>
+    <style>
+        img{
+            width: 350px;
+            height: 200px;
+        }
+
+        a{
+            color: white;
+            text-decoration: none;
+        }
+        /* -- class -- */
+        .container{
+            border: 1px solid gray;
+            height: 500px;
+        }
+
+        .prod-list .caption{
+            top: 200px;
+            width: 350px;
+            height: 200px;
+            padding-top: 20px;
+            opacity: 0.3;
+            background: rgba(0, 0, 0, 0.456);
+            position: absolute;
+            transition: all 0.5s ease-in-out;
+            z-index: 1;
+        }
+
+        .prod-list li{
+            list-style: none;
+            float: left;
+            padding: 0;
+            margin: 10px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .prod-list li:hover .caption{
+            opacity: 0.5; /* 투명도 */
+            transform: translateY(-200px);
+        }
+
+        .caption{
+            text-align: center;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <b> 12positiontransition.html</b> <br>
+
+    <div class="container">
+        <ul class="prod-list">
+            <li>
+                <img src="./images/cake1.jpg" alt="제품1">
+                <div class="caption">
+                    <h2> 상품1 </h2>
+                    <p> 상품1 상세설명</p>
+                    <p> 가격 : 123,000원</p>
+                </div>
+            </li>
+            <li>
+                <img src="./images/cake2.jpg" alt="제품2">
+                <div class="caption">
+                    <h2> 상품2 </h2>
+                    <a href="#"><p> 상품2 상세설명</p></a>
+                    <p> 가격 : 456,000원</p>
+                </div>
+            </li>
+            <li>
+                <img src="./images/cake3.jpg" alt="제품3">
+                <div class="caption">
+                    <h2> 상품3 </h2>
+                    <p> 상품3 상세설명</p>
+                    <p> 가격 : 789,000원</p>
+                </div>
+            </li>
+            <li>
+                <img src="./images/귤껍질.jpg" alt="제품4">
+                <div class="caption">
+                    <h2> 상품4 </h2>
+                    <p> 상품4 상세설명</p>
+                    <p> 가격 : 1,011,000원</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
